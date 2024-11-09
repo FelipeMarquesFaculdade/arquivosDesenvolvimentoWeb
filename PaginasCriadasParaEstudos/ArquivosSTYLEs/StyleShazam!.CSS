@@ -1,0 +1,64 @@
+body{
+    /* Imagem de fundo */
+    background: url(imagens/bg.jpg) fixed;
+    /* cor da letra de todo o corpo - menos links */
+    color: white;
+    /* muda o tamanho da imagem de fundo */
+    background-size: cover;
+    /* retirar a margem do corpo */
+    margin: 0;
+}
+p{
+    /* a família da fonte do parágrado */
+    font-family: Quicksand, Tahoma;
+    /* mudando o tamanho da letra */
+    font-size: 20px;
+}
+
+/* criando uma classe center */
+.center{
+    /* alinhamento do texto - center = centralizado */
+    text-align: center;
+}
+.logo{
+    /* largur */
+    width: 250px;
+}
+a{
+    /* cor da letra */
+    color: black;
+    /* cor de fundo */
+    background: white;
+    /* retirar o sublinhado */
+    text-decoration: none;
+    /* margem interna */
+    padding: 10px;
+    /* negrito */
+    font-weight: bold;
+}
+a:hover{
+    background: red;
+}
+.banner{
+    /* largura */
+    width: 100%;
+    /* margem no topo */
+    margin-top: 20px;
+    /* margem bottom - embaixo */
+    margin-bottom: 20px;
+    /* borda - tamanho - tipo - cor */
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+}
+.margem{
+    /* margem */
+    margin: 20px;
+}
+.poster{
+    /* arredondar a barda */
+    border-radius: 50px;
+    border: 10px solid white;
+}
+h2{
+    font-family: Quicksand;
+}

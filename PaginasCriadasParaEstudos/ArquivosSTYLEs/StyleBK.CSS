@@ -1,0 +1,19 @@
+body{
+    background: rgb(215, 207, 207);
+    color: black;
+    font-family: Arial, Verdana;
+}
+a{
+    background: red;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+a:hover{
+    background: black;
+}
+img:hover{
+    filter: sepia(0);
+    transition: all 2s;
+}

@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #666;
+    color: #FFF;
+    font-family: Poppins, Arial;
+}
+
+header {
+    background-color: #333;
+    width: 100%;
+    margin-bottom: 40px;
+    box-shadow: 0 0 20px #000;
+}
+
+.logo {
+    width: 250px;
+}
+
+.center {
+    text-align: center;
+}
+
+nav {
+    float: right;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+nav a {
+    background: #FFF;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background: #F00;
+}
+
+.img {
+    width: 100%;
+    border: 5px solid #FFF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px #000;
+}
+
+p, h2 {
+    margin: 20px;
+}
+
+.poster {
+    border-radius: 10px;
+    border: 5px solid #FFF;
+    box-shadow: 2px 2px 20px #000;
+}
+
+section {
+    width: 70%;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+footer {
+    width: 100%;
+    background: #333;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #000;
+}
+.grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, auto);
+}
+.coluna{
+padding: 10px;
+}
+
+.grid img{
+    width: 100%;
+    border: 5px solid #FFF;
+}
+@media (max-width: 450px){
+ header, nav, nav a, section, aside {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.grid{
+    grid-template-columns: 100%;
+}
+}
+iframe{
+    margin: 25px;
+}
